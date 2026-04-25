@@ -90,7 +90,7 @@ Dans le cadre de ce projet, la caméra est utilisée uniquement pour fournir une
 
 ### Schematic
 
-![Schematic](schematics/kicad_schematic.png)
+![Schematic](schematic_v2_medication_dispenser.svg)
 
 ---
 
