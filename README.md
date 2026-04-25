@@ -84,7 +84,7 @@ Dans le cadre de ce projet, la caméra est utilisée uniquement pour fournir une
 
 ### Block diagram
 
-![Block Diagram](schematics/block_diagram.png)
+![Block Diagram](/block_diagram_v2_medication_dispenser.svg)
 
 ---
 
