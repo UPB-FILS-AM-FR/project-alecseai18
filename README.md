@@ -2,7 +2,7 @@
 
 | | |
 |-|-|
-|`Author` | Your full name
+|`Nicuale Alexei` | Your full name
 
 ## Description
 
