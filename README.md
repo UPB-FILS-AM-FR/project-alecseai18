@@ -49,6 +49,39 @@ Il s’agit d’une application concrète combinant **systèmes embarqués, capt
 ---
 
 ## Architecture
+## Architecture du système
+
+<pre>
+[RTC DS3231]
+      │
+      │ heure
+      ▼
+[ESP32 DevKit]
+      │
+      ├──→ [NEMA 17 + DRV8825]
+      │         rotation du plateau (15 compartiments)
+      │
+      ├──→ [Servo MG90S]
+      │         contrôle de la trappe
+      │
+      ├──→ [Buzzer + LED]
+      │         alerte patient
+      │
+      ├──← [Capteur Hall]
+      │         position initiale
+      │
+      ├──← [Micro-interrupteur]
+      │         ouverture de la trappe
+      │
+      ├──← [Load Cell + HX711]
+      │         détection retrait pilule
+      │
+      ├──← [Caméra]
+      │         capture image / vidéo courte
+      │
+      └──→ Wi-Fi ──→ [Téléphone de l’aidant]
+                        statut + heure + capture
+</pre>
 
 Le système est composé de plusieurs modules :
 
