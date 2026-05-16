@@ -123,7 +123,7 @@ Dans le cadre de ce projet, la caméra est utilisée uniquement pour fournir une
 
 ### Schematic
 
-![Schematic](kicad_schem2.jpg)
+![Schematic](Distributeur Rotatif/distributeur Rotatif.svg)
 
 ---
 
